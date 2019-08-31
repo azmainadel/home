@@ -4920,3 +4920,8 @@ body {
     margin: 0;
     color: #fff
 }
+
+img {
+    border-radius: 50%;
+    max-width:30%;
+}
