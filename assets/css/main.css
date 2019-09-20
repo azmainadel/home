@@ -4923,7 +4923,7 @@ body {
 
 .img-avatar {
     border-radius: 50%;
-    max-width:30%;
+    max-width:20%;
 }
 
 .img-work {
@@ -4935,13 +4935,24 @@ body {
 }
 
 .post-work{
-    color: green;
+    color: #1a222c;
     margin-bottom: -10px;
 }
 
 .user-details2 {
     text-align: center;
     margin-bottom: -50px;
+}
+
+.user-details3 {
+    text-align: center;
+    margin-bottom: -10px;
+}
+
+.user-details4 {
+    text-align: center;
+    margin: 5px auto;
+    color: #fff
 }
 
 .post-duration{
