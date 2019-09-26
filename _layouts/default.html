@@ -3,18 +3,28 @@
   {% include head.html %}
   <body>
       {% include header.html %}
+
       <section id="about">
         {% include about.html %}
       </section>
-            <section id="work">
-              {% include work.html %}
-            </section>
+
+      <section id="resume">
+        {% include resume.html %}
+      </section>
+
+        <section id="work">
+        {% include work.html %}
+      </section>
+
       <section id="mysystem">
         {% include mysystem.html %}
       </section>
+
       <section id="skills">
         {% include skills.html %}
       </section>
+
         {{ content }}
+
       {% include footer.html %}
   </body>
